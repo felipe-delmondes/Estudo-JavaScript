@@ -26,7 +26,7 @@ Todos os recursos online estão publicados no ![GitHub](https://img.shields.io/b
 
 ## Ambiente de desenvolvimento
 
-![Visual Studio](https://img.shields.io/badge/Visual%20Studio-5C2D91.svg?style=>
+![Visual Studio](https://img.shields.io/badge/Visual%20Studio-5C2D91.svg?style=for-the-badge&logo=visual-studio&logoColor=white) 
 
 
 ## About me
