@@ -1,0 +1,59 @@
+h1{
+    font-size: 21pt;
+    color:white;
+    border-radius: 1%;
+    background-color: gray;
+    padding: 5px;
+    border: 1px solid rgb(7, 63, 21);
+    text-align: center;
+}
+
+p{
+    font-size: 12pt;
+    background-color: grey;
+    border: 1px solid rgb(7, 63, 21);
+    padding: 5px;
+    color:rgb(255, 255, 255);
+}
+
+a{
+    text-decoration: none;
+}
+
+* {
+    font-family: 'Open Sans', sans-serif;
+}
+
+body {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+    background-color: rgb(39, 165, 243);
+}
+
+button {
+    height: 40px;
+    width: 40px;
+    border-radius: 50%;
+    border: 2px solid rgb(1, 92, 16);
+    background-color: lightgreen;
+    color: rgb(1, 92, 16);
+    font-size: 16pt;
+    font-weight: 600;
+    text-align: center;
+}
+
+#counter {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    width: 150px;
+}
+
+#currentNumber {
+    display: flex;
+    align-items: center;
+    margin: 0 20px;
+    font-size: 16pt;
+}
