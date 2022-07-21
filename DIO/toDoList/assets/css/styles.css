@@ -1,0 +1,88 @@
+h1{
+    font-size: 21pt;
+    color:white;
+    border-radius: 1%;
+    background-color: gray;
+    padding: 5px;
+    border: 1px solid rgb(7, 63, 21);
+    text-align: center;
+}
+
+p{
+    font-size: 12pt;
+    background-color: grey;
+    border: 1px solid rgb(7, 63, 21);
+    padding: 5px;
+    color:rgb(255, 255, 255);
+}
+
+div p .selected {
+    font-size: 12pt;
+    background-color: rgb(241, 241, 241);
+    border: 1px solid rgb(7, 63, 21);
+    padding: 5px;
+    color:black;
+    text-decoration: line-through;
+}
+
+div p .unselected {
+    font-size: 12pt;
+    background-color: rgb(241, 241, 241);
+    border: 1px solid rgb(7, 63, 21);
+    padding: 5px;
+    color:black;
+}
+
+a{
+    text-decoration: none;
+}
+
+* {
+    font-family: 'Open Sans', sans-serif;
+}
+
+body {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+    background-color: rgb(39, 165, 243);
+}
+
+button {
+    height: 40px;
+    width: 150px;
+    border-radius: 2%;
+    border: 2px solid rgb(1, 92, 16);
+    background-color: lightgreen;
+    color: rgb(1, 92, 16);
+    font-size: 16pt;
+    font-weight: 200;
+    text-align: center;
+}
+
+#Inscricao {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    width: 400px;
+}
+
+.SelectItem {
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+    width: 100px;
+}
+
+input {
+    color:grey;
+    border-radius: 3%;
+    border: 1px solid black;
+    padding: 3px;
+    
+}
+
+:checked + p {
+    text-decoration: line-through;
+  }
